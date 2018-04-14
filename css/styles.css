@@ -1,0 +1,1150 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+font-family: 'BebasNeueBook';
+url('../fonts/Bebas Neue Book.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'HelveticaNeueCyrLight';
+url('../fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'HelveticaNeueCyrRoman';
+url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face{
+
+font-family: 'fontawesome';
+
+
+url('../fonts/fontawesome-webfont.ttf') format('truetype');
+
+
+font-weight: regular;
+
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'Bebas Neue Bold';
+
+src: url('../fonts/Bebas Neue Bold.eot');
+
+url('../fonts/WebFont-Bold.ttf') format('truetype');
+
+
+
+font-weight: bold;
+
+font-style: normal;
+
+}
+
+
+
+@font-face{
+
+font-family: 'BebasNeue Thin';
+
+src: url('../fonts/HelveticaNeue.eot');
+
+url('../fonts/BebasNeue Thin.ttf') format('truetype');
+
+
+
+font-weight: bold;
+
+font-style: normal;
+
+}
+
+
+
+@font-face{
+
+font-family: 'Bebas Neue Regular';
+
+
+url('../fonts/Bebas Neue Reqular.otf') format('truetype');
+
+
+
+font-weight: bold;
+
+font-style: normal;
+
+}
+@font-face{
+
+font-family: 'HelveticaNeue';
+
+src: url('../fonts/HelveticaNeue.eot');
+
+url('../fonts/HelveticaNeue.ttf') format('truetype');
+
+
+
+font-weight: bold;
+
+font-style: normal;
+
+}
+
+@font-face{
+font-family: 'HelveticaNeueCyrLight';
+
+
+url('../fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+
+
+
+font-weight: regular;
+
+font-style: normal;
+}
+*{
+	
+}
+img {
+	max-width:100%;
+	height:auto;
+}
+.pag_soc{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.paginat{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+	margin-left: 10px;
+    height: 20%;
+    z-index: 100;
+	
+}
+.social-network{
+	display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: space-between;
+    margin-right: 10px;
+    z-index: 100;
+
+
+}
+.social-network a{
+	
+}
+
+
+.carousel-caption{
+	top:50px;
+    right: 0;
+    left: 0;
+}
+.logo_img{
+	float: left;
+}
+.logo_text{
+	text-align: left;
+    margin-left: 55px;
+    margin-top: -9px;
+    font-size: 1.3em;
+    font-family: Bebas Neue Bold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header_text{
+	border:10px solid black;	
+	padding: 15px 0 15px 0;
+	float:left;
+	border-color:rgba(112,113,115,.5);
+	animation: anime-P 1.6s ease-out;
+}
+.margin_header{
+    margin-top: 5%;
+}
+.header_text p{
+    text-align: left;
+    margin: 0;
+    margin-left: 100px;
+    font-size: 4em;
+    font-family: Bebas Neue Regular;
+    letter-spacing: 2px;
+}
+.header_text p span{
+	font-size: 0.4em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.carousel-inner{
+/*	background-color: rgba(112,113,115,.9);*/
+}
+.iteem{
+	background-color: black;
+	width:50%;
+}
+
+@keyframes anime-P {
+ from {
+  opacity: 0;
+  transform: translateX(-2000px);
+ }
+ to {
+  opacity: 1;
+  transform: translateX(0);
+ }
+}
+
+.wrap_carousel{
+    width: 50.8%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #525457;
+    opacity: 0.6;
+    z-index: 1;
+    height: 85%;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 15%;
+    left: 30%;
+}
+
+ @media (max-width: 768px){
+	 .carousel-caption{
+		 top: 0;
+	 }
+	 .margin_header {
+    margin-top: 4%;
+}
+	 .carousel-indicators li {
+    display: none;
+	 }
+	 .header_text{
+		     padding: 12px 0 0px 0;
+			 border: 5px solid;
+			 	border-color:rgba(112,113,115,.5);
+		 
+	 }
+	 .header_text p{
+		 font-size: 1em;
+	 }
+	 .header_text p span{
+			font-size: 0.6em; 
+	 }
+	 .logo_text{
+		     margin-left: 55px;
+    margin-top: -10px;
+    font-size: 18px;
+	 }
+	 
+ }
+
+ .about_us_img{
+	 margin-top: -40px;
+    background-image: url(../img/aboutus_background2.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+	font-family: "Bebas Neue Bold";
+	font-stretch:condensed;
+
+ }
+  .about_us h1{
+	  text-transform: uppercase; 
+	  padding: 120px 0 40px 0;
+	  
+  }
+  .about_us p{
+	  font-family: "HelveticaNeueCyrLight";
+	  padding-top: 10px;
+	  font-size:1.1em;
+	  
+  }
+  img.about_us_img{
+	box-shadow: 1px -1px 65px black;
+	margin-left: -0.7%;
+  }
+/******************* start burger*********************************/
+
+.burger_triger{
+    position: absolute;
+    top: -16px;
+    /* left: -12px; */
+    right: -10px;
+    height: 61px;
+    width: 97px;
+    cursor: pointer;
+    background-color: #333333;
+    z-index: 0;
+    float: right;
+    border-radius: 3px;
+}
+.burger{
+    height: 5px;
+    width: 45px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 8px;
+    z-index: 1;
+    float: right;
+}
+.burger:before {
+	content: '';
+	display: block;
+	position: absolute;
+	height:5px;
+   width: 45px;
+    background-color: #ffffff;
+	left: 0;
+	top: 13px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.burger:after {
+	content: '';
+	display: block;
+	position: absolute;
+	height:5px;
+   width: 45px;
+    background-color: #ffffff;
+	left: 0;
+	top: 26px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.menu{
+    display: block;
+    opacity: 0;
+    list-style-type: none;
+    line-height: 41px;
+    font-size: 20px;
+    margin-top: 41px;
+    position: absolute;
+    transition: all 0.8s;
+    right: 0;
+}
+.menu li{
+    padding: 0px 10.5px;
+    background-color: #333333;
+	width: 97px;
+    margin-left: 11%;
+	font-family:BebasNeueBook;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.menu li:before{
+ content: '';
+ display: block;
+position: absolute;
+ border-left: 1px solid white;	
+}
+.menu li:hover{
+	color: white;
+	background-color: black;
+}
+.menu_opened{
+	opacity: 1;
+}
+	
+/**************************end burger********************************/
+
+/**************************start owlcarousel********************************/
+div.owl-item.active{
+	transform:scale(0.4);
+}
+div.owl-item.active.center{
+	transform:scale(0.8)
+
+}
+.slide1{
+	background-image: url(../img/award_1.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+	background-size: contain;
+	transition: 0.5s easy-in;
+}
+.slide2{
+	background-image:url(../img/award_2.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+	background-size: contain;
+	transition: 0.5s easy-in;
+
+}
+.slide3{
+	background-image:url(../img/award_3.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+	background-size: contain;
+	transition: 0.5s easy-in;
+
+}
+.center .slide1{
+	background-image:url(../img/award_1_active.png);	
+	text-align: center;
+}
+.center .slide2{
+	background-image:url(../img/award_2_active.png);	
+}
+.center .slide3{
+	background-image:url(../img/award_3_active.png);	
+}
+.aboutus_slider{
+	position:relative;
+	margin-top:20PX;
+}
+.controls{
+	
+}
+.arrow#left{
+	z-index: 1;
+	left: 0;
+    position: absolute;
+    top: 125px;
+	
+}
+.arrow#left:hover, .arrow#right:hover{
+	cursor: pointer;
+	transform:scale(1.3);
+}
+.arrow#left:focus, .arrow#right:focus{
+	cursor: pointer;
+	transform:scale(1);
+}
+.arrow#right{
+	z-index: 1;
+	right: 0;
+    position: absolute;
+    top: 125px;
+	
+}
+.aboutus_slider p{
+	font-family: HelveticaNeue;
+    bottom: 39px;
+    font-size: 17px;
+    position: absolute;
+	width:100%;
+}
+
+/**************************end owlcarousel********************************/
+
+
+/**************************start advantages********************************/
+section.advantages{
+	display: flex;
+	height: 100vh;
+	align-items:center;
+	justify-content: center;
+	font-family:HelveticaNeueCyrLight;
+	position: relative;
+}
+.advantages_bg1{
+	position:absolute;
+}
+.advantages_items{
+    background-image: url(../img/advantag_bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 440px;
+    background-color: white;
+    padding: 4px;
+    box-shadow: 5px 0 46px 0px;
+}
+.advantages_wrap{
+	display:block;
+	height: 100%;
+	width: 50%;
+	position:relative;
+}
+.advantages_item{
+	margin: 10px;
+    height: 47%;
+	background-position-x: 50%;
+    background-repeat: no-repeat;
+			cursor:pointer;
+			position:relative;
+
+
+}
+
+.advantages_bg_1{
+	position: absolute;
+    left: 0;
+    width: 56%;
+    height: 80%;
+}
+.advantages_item.p1{
+    background-image: url(../img/advant_loc_circuit.png);
+    background-repeat: no-repeat;
+
+}
+/*.advantages_item.p1:hover{
+	background-image: url(../img/advant_loc_circuit_hover.png);
+	opacity: 0.4;
+	
+}*/
+.opacit{
+	opacity:0.4;
+}
+.advantages_item.p1 img{
+    left: 43%;
+    position: absolute;
+    top: 12%;
+	
+}
+.advantages_text.adv_txt1{
+	bottom: 0;
+    position: absolute;
+    text-align: center;
+	color: #666;
+}
+.advantages_text.adv_txt3{
+	position: absolute;
+    bottom: 0;
+    text-align: center;
+	color: #666;
+
+}
+.advantages_item.p3{
+	background-image:url(../img/advant_eco.png);
+	background-position-y: 10%;
+	background-repeat:no-repeat;
+}
+
+
+.advantages_item.p2{
+	background-image: url(../img/polygon.png);
+}
+/*.advantages_item.p2:hover{
+	background-image: url(../img/polygon_hover.png);
+	cursor:pointer;
+	opacity: 0.4;
+	
+}*/
+.advantages_text.adv_txt2{
+	position: absolute;
+    bottom: 0;
+    text-align: center;
+	color: #666;
+}
+.advantages_item.p4{
+		background-image: url(../img/circuit.png);
+		background-position-y: 10%;
+}
+/*.advantages_item.p4:hover{
+		background-image: url(../img/circuit_hover.png);
+		cursor:pointer;
+		opacity: 0.4;
+
+
+}*/
+.advantages_text.adv_txt4{
+	position: absolute;
+    bottom: 0;
+    text-align: center;
+	color: #666;
+	
+}
+.adv_logo2{
+	text-align: center;
+    position: absolute;
+    left: 35%;
+    margin-top: 45px;
+    font-family: Bebas Neue Bold;
+    font-weight: bold;
+    font-size: 2em;
+    font-stretch: ultra-condensed;
+    text-transform: uppercase;
+    line-height: 0.5em;
+}
+.adv_logo2 span{
+	    font-size: 0.37em;
+}
+.adv_logo3{
+	text-align: center;
+    position: absolute;
+    left: 39%;
+    margin-top: 45px;
+    font-family: Bebas Neue Bold;
+    font-weight: bold;
+    font-size: 2em;
+    font-stretch: ultra-condensed;
+    text-transform: uppercase;
+    line-height: 0.5em;
+}
+.adv_logo3 span{
+	    font-size: 0.37em;
+}
+
+.advantages_block2_text{
+	margin: 30% 0 0 10%;
+	color: #666;
+}
+.advantages_block2_text h1{
+    text-transform: uppercase;
+    color: #585757;
+    font-family: Bebas Neue Regular;
+    font-weight: 900;
+    font-size: 3.9em;
+	}
+.advantages_text h1{
+    display: block;
+    width: 270px;
+    font-family: Bebas Neue Regular;
+    font-weight: bold;
+    font-size: 4em;
+	}
+.advantages_text p{
+	margin-top: 1em;
+    font-size: 1em;
+	color: #666;
+}
+
+.advantages_bg2{
+	position: absolute;
+	right: 0;
+	z-index: -1;
+	bottom: -35%;
+}
+
+
+
+
+
+/***********************************examples**************************************/
+section.examples{
+	height:100vh;
+	font-family:Bebas Neue Regular;
+	position:relative;
+}
+.examples h1{
+    font-family: Bebas Neue Regular;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 10px 0 0 0;
+	color: #666666;
+}
+.examples h2{
+	font-family: HelveticaNeue;
+    font-size: 22px;
+    margin: 0;
+		color: #666666;
+
+}
+.examples_statistic{
+	display:flex;
+	flex-wrap:wrap;
+	    width: 66%;
+}
+.statistic_item{
+	font-family:Bebas Neue Bold;
+	font-weight:bold;
+	color: #999999;
+	font-size:20px;
+	padding: 10px;
+}
+.statistic_item span{
+    color: #666666;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    padding: 10px;
+}
+.statistic_item img{
+	    margin: 0 0 7px 10px;
+}
+.example_p{
+	font-family: HelveticaNeueCyrLight;
+	width:80%;	
+}
+.readmore{
+	font-family:BebasNeue Thin;
+	font-size:30px;
+	text-transform: uppercase;
+	color: #999999;
+	margin:0;
+	
+}
+.examples hr{
+	margin: 0;
+	height:2px;
+}
+.example_link_wrap{
+	display:flex;
+}
+.example_link{
+    border: 1px solid #999999;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    color: #666666;
+    font-size: 19px;
+    padding: 3px 0;
+    margin-right: 10px;
+}
+.example_block_2{
+	
+}
+.example_block_2 img{
+    margin-top: 25px;
+    box-shadow: 0 0 33px rgba(0,0,0,1);
+}
+.examplesphoto_wrap{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+.examples_photo{
+	margin-bottom: 10px;
+	
+}
+.examples_bg{
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+}
+
+
+/************************************************start team******************************************************/
+
+.team{ 
+    height: 100%;
+    padding: 2% 0
+}
+.team_title{
+	text-align:center;
+}
+
+.team_title h1{
+    font-family: Bebas Neue Regular;
+    margin: 0;
+    font-weight: bold;
+    color: #666666;
+    letter-spacing: 3px;
+    font-size: 3.8em;
+	
+}
+.team_title h2{
+	font-family: HelveticaNeue;
+    font-size: 2em;
+    margin: 0px 0 0 0;
+    color: #666666;
+    letter-spacing: 1px;
+}
+
+
+.membersofteam{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	margin-top:10px;
+	
+}
+.member_active{
+	box-shadow: 0px 0px 11px 3px;
+}
+.memberofteamt{
+	padding:7px;
+	width: 50%;
+	cursor:pointer;
+}
+.member-pair{
+	display:flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+#memberabilities1{
+}
+#memberabilities2{
+	display: none;	
+}
+#memberabilities3{
+	display: none;	
+
+}
+#memberabilities4{
+	display: none;	
+
+}
+.memberabilities{
+	display: flex;
+    height: auto;
+    align-items: stretch;
+	margin-top: 3%;
+	
+}
+.soc-contact{
+	display: flex;
+	flex-flow: column;
+	    justify-content: space-evenly;
+
+}
+.characteristics{
+	width: 50%;
+	margin-left: 2%;
+}
+.characteristics .name{
+    font-family: HelveticaNeueCyrRoman;
+    color: rgb(102, 102, 102);
+    font-size: 3em;
+    margin: 0;
+}
+
+.characteristics .profession{
+    font-family: Bebas Neue Regular;
+    color: rgb(102, 102, 102);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.characteristics .descr{
+	font-family: HelveticaNeueCyrLight;
+  color: rgb(128, 128, 128);
+
+
+}
+.skills{
+    background-color: #333333;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 46%;
+    padding: 2% 3%;
+	position:relative;
+	justify-content:center;
+	}
+
+.skills p{
+
+    font-family: "Bebas Neue Regular";
+    color: rgb(102, 102, 102);
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.skills  span{
+  font-family: "Bebas Neue Regular";
+  color: rgb(153, 153, 153);
+  font-size: 1.3em;
+}
+.line1{
+	 height: 5px;
+    background: linear-gradient(to right, #666, #999);
+    width: 28%;
+    border-radius: 0px 40% 40% 0px;
+    margin-bottom: 2%;
+}
+
+.line2{
+	 height: 5px;
+    background: linear-gradient(to right, #666, #999);
+    width: 50%;
+    border-radius: 0px 40% 40% 0px;
+    margin-bottom: 2%;
+}
+
+.line3{
+	 height: 5px;
+    background: linear-gradient(to right, #666, #999, #666);
+    width: 92%;
+    border-radius: 0px 40% 40% 0px;
+    margin-bottom: 2%;
+}
+
+
+
+/********************************************end team***********************************************************/
+
+
+
+
+
+
+/*************************************************feedback start**********************************************************************/
+
+section.feedback{
+	position: relative;
+    height: 100%;
+    display: flex;
+    padding: 2% 0;
+}
+.feedback_wrap{
+	background-image: url(../img/feedback_bg.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.feedback_item{
+    background-image: url(../img/feedback_1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: white;
+    width: 72%;
+    margin: 7% 0;
+    box-shadow: 0 0 28px 5px grey;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+	
+	}
+.feedback_p1{
+    font-family: Bebas Neue Regular;
+    font-size: 4em;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+.feedback_p2{
+    font-family: HelveticaNeue;
+    font-size: 2em;
+    color: white;
+}
+.feedback_item_block_1{
+	
+}
+
+.feedback_item_block_2{
+	width:100%;
+	position:relative;
+	
+}
+.feedback_button{
+    width: 40%;
+    margin: 10px;
+    margin-top: 0;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    border: none;
+    /* place-content: baseline; */
+    padding: 10px;
+}
+.feedback_item_block_2 a{
+    width: 83%;
+    /* border: 1px solid black; */
+    left: 8.5%;
+    background-color: #666666;
+    position: absolute;
+    padding: 4px;
+    color: #ffffff;
+    font-family: Bebas Neue Regular;
+    text-decoration: none;
+    font-size: 2em;
+}
+.feedback_item_block_2 a:hover{
+	    background-color: #333333;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************feedback end******************************************************************/
+
+
+
+
+/*********************************************************footer start*****************************************************************/
+footer{
+	background-color: #333333;
+    height: auto;
+}
+.footer{
+	display:flex;
+	align-items:center;	
+}
+.footer_p{
+    margin: 0;
+    z-index: 100;
+    color: white;
+    display: block;
+    width: 100px;
+    margin-left: 6px;
+    font-family: Bebas Neue Bold;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.footer_img{
+	
+}
+.footer_wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3% 0;
+}
+.social-net{
+    justify-content: space-evenly;
+    color: #ffffff;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.footer_logo{
+	display:flex;
+    margin-left: 10%;	
+}
+.social-net a{
+color: #ffffff;
+}
+
+/*********************************************************footer end*****************************************************************/
+
+/*********************************************************contacts start*****************************************************************/
+.contacts{
+	display:flex;
+	padding:2% 0;
+}
+.map{
+	position:relative;
+	flex-basis: 70%;
+}
+
+.location_pointer{
+	position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.contacts_block{
+	display:flex;
+	flex-direction:column;
+    justify-content: center;
+	flex-basis: 30%;
+	margin-left:5%;
+	}
+.contacts_block h1{
+    font-family: Bebas Neue Regular;
+    font-size: 4.5em;
+    color: #4d4d4d;
+    margin: 0 0 15% 0;	
+}
+.contacts-info{
+	display:flex;
+}
+.contacts-info-img{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+}
+.contacts-info-img img{
+	padding: 0 10px 10px 0;
+}
+.contacts-info-text span{
+	font-family: HelveticaNeueCyrLight;
+    color: #808080;
+    font-size: 1.3em;
+}
+.contacts-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact_feedback{
+    font-family: BebasNeue Thin;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-size: 1.8em;
+	color: #808080;
+}
+
+/*********************************************************contacts end*****************************************************************/
+
+
+/************************************************************* reviews ********************************************/
+.reviews{
+	position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 3% 0;
+	
+}
+.reviews_pic_2{
+    width: 50%;
+	
+	
+}
+.reviews_pic_1{
+    z-index: 1;
+}
+.reviews_slayder{
+    position: absolute;
+    margin-left: 20%;
+    width: 60%;
+	z-index: 2;
+}
+.slayder_item{
+    background-color: white;
+    height: auto;
+    padding: 1% 0;
+    position: relative;
+    display: flex;
+    margin: 5% 0;
+		}
+	.smile_man{
+		height:80%;
+		margin-left: 8%;
+	}
+	.smile_man_opis{
+    margin-left: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+	}
+.smile_man_descr{
+	font-family:HelveticaNeueCyrLight;
+	
+}
+
+.smile_man_name{
+	font-family: HelveticaNeueCyr-Medium;
+	font-weight:bold;
+}
+/************************************************************* reviews ********************************************/
+
+
+

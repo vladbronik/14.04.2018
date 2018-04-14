@@ -1,0 +1,105 @@
+@media screen and (max-width: 1200px) {
+		.header_text p{
+		font-size: 3em;
+		
+	}
+		.about_us h1{
+	 padding: 56px 0 5px 0;
+    text-align: center;
+	}
+	.adv_logo2{
+		left:30.5%;
+	}
+	.adv_logo3{
+		left:35.5%;
+	}
+	.advantages_item.p1 img{
+		left:41%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+
+	.container.margin_header{
+		margin-top: 0;
+	}
+	.header_text{
+	    padding: 3px 0 0px 0;
+	}
+	.margin_header {
+   margin-top: 0;
+	}
+	.advantages_block2_text{
+	margin: 50% 0 0 0;
+    text-align: center;
+	}
+	.examples_photo {
+    width: 90px;
+	flex-basis: 100px;
+	}
+	.about_us_block {
+    text-align: center;
+}	
+	img.about_us_img{
+
+	display: none; 
+	}
+	
+	
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.footer .container{
+		width:100%;
+	}
+		.header_text p{
+		font-size: 2.5em;
+		
+	}
+	.about_us h1{
+	padding: 56px 0 5px 0;
+    text-align: center;
+	}
+		.header_text p {
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    font-size: 2em;
+    font-family: Bebas Neue Regular;
+    letter-spacing: 2px;
+}
+	.feedback_p1{
+		font-size: 2.5em;
+		
+	}
+	.feedback_p2{
+		    font-size: 1.1em;
+	}
+}
+
+
+
+@media screen and (max-width: 480px) {
+	.about_us h1{
+	 padding: 56px 0 5px 0;
+    text-align: center;
+	}
+	img.about_us_img{
+		margin-left:0;
+	}
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
